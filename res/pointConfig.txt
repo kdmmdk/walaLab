@@ -1,0 +1,4 @@
+SOURCE java.lang.System.getProperty(Ljava/lang/String;)Ljava/lang/String;
+SINK java.io.PrintStream.println(Ljava/lang/String;)V
+PROCESS java.lang.StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder; [0,1]->[-1,0]
+PROCESS java.lang.StringBuilder.toString()Ljava/lang/String; [0]->[-1]
